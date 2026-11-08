@@ -86,18 +86,6 @@ section{margin-bottom:56px}
 .member .m-role{font-size:12px;color:var(--muted);margin-top:8px}
 .member a{color:inherit;text-decoration:none}
 .member .m-avatar img{width:100%;aspect-ratio:2/3;object-fit:cover;display:block;height:auto}
-.m-sch{font-size:11px;color:var(--muted);margin-top:7px;line-height:1.6;letter-spacing:-.1px}
-.m-sch .nat{display:inline-block;margin-left:4px;background:var(--accent);color:#fff;font-size:9.5px;font-weight:600;padding:1px 6px;border-radius:20px;vertical-align:1px;letter-spacing:0}
-
-/* Year switch for the graduate roster + scholarships */
-.row-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:20px 0 12px}
-.year-tabs{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-.year-label{font-size:11.5px;color:var(--muted);margin-right:2px}
-.year-tab{font:inherit;font-size:12.5px;line-height:1.4;padding:4px 13px;border-radius:16px;border:.5px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer;transition:.15s}
-.year-tab:hover{border-color:var(--accent2);color:var(--accent2)}
-.year-tab.active{background:var(--accent2);border-color:var(--accent2);color:#fff;font-weight:600}
-.year-pane{display:none}
-.year-pane.active{display:block}
 .group-photos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:18px}
 .group-photo-item{display:flex;flex-direction:column;gap:8px}
 .group-photo-item img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;border:0.5px solid var(--line)}
